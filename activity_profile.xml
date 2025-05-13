@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6F6FEF"
+    tools:context=".Activitys.CreateAccountActivity"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/main_bg_color"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:background="#7878ED"
+            android:orientation="vertical"
+            >
+           <ImageView
+               android:id="@+id/BackBtn"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/baseline_close_24"
+               android:layout_marginTop="@dimen/_10sdp"
+               android:layout_gravity="end"
+               android:layout_marginEnd="@dimen/_15sdp"
+               app:tint="@color/white"
+               android:background="@drawable/icon_background"
+               android:padding="@dimen/_5sdp"
+               />
+
+
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trusted Shopping Made Easy"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="#ffffff"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:maxLines="1"
+                />
+
+
+
+            <LinearLayout
+                android:id="@+id/textContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                >
+
+
+                <View
+                    android:id="@+id/animatedLine"
+                    android:layout_width="0dp"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="#CDDC39" />
+
+                <TextView
+                    android:id="@+id/animatedText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Smart Shopping"
+                    android:textSize="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColor="#E7E3E3"
+                    android:fontFamily="@font/poppins_medium" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/create_custom_card"
+            android:layout_marginTop="@dimen/_120sdp"
+            >
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
